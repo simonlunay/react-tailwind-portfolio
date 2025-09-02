@@ -69,9 +69,14 @@ export const ContactSection = () => {
 
 
                 <div className="p-8">
-                        <div className="h-48 overflow-hidden">
-                            <img src="/projects/image.png" alt="osu logo" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
-                        </div>
+                    <div className="h-48 overflow-hidden flex flex-col">
+                        <img
+                            src="/projects/image.png"
+                            alt="osu logo"
+                            className="w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        />
+
+                    </div>
                 </div>
             </div>
         </div>
