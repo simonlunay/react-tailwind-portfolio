@@ -65,7 +65,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Experience</h4>
                                 <p className="text-muted-foreground">
-                                    Two summers as a Computer Science Intern at JCL Equipmment, assisting with database management, automation, and website development.
+                                    Two summers as a Computer Science Intern at JCL Equipment, assisting with database management, automation, and website development.
 
                                 </p>
                             </div>
