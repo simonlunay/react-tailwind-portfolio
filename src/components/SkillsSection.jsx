@@ -2,27 +2,27 @@ import {useState, useEffect} from "react";
 import {cn} from '@/lib/utils'
 const skills= [
     //Frontend
-    {name: "HTML/CSS", level: 100, category: "frontend"},
-    {name: "JavaScript", level: 95, category: "frontend"},
-    {name: "React", level: 90, category: "frontend"},
-    {name: "TypeScript", level: 80, category: "frontend"},
-    {name: "Tailwind CSS", level: 90, category: "frontend"},
+    {name: "HTML/CSS", level: 95, category: "frontend"},
+    {name: "JavaScript", level: 85, category: "frontend"},
+    {name: "React", level: 80, category: "frontend"},
+    {name: "TypeScript", level: 65, category: "frontend"},
+    {name: "Tailwind CSS", level: 75, category: "frontend"},
 
     //Backend
     {name: "Java", level: 95, category: "backend"},
     {name: "Python", level: 95, category: "backend"},
-    {name: "SQL", level: 80, category: "backend"},
-    {name: "Node.js", level: 85, category: "backend"},
-    {name: "Express", level: 90, category: "backend"},
+    {name: "SQL", level: 70, category: "backend"},
+    {name: "Node.js", level: 70, category: "backend"},
+    {name: "Express", level: 60, category: "backend"},
 
     //Systems
     {name: "C", level: 95, category: "systems"},
     {name: "Assembly", level: 85, category: "systems"},
     
     //tools
-    {name: "Git/Github", level: 95, category: "tools"},
-    {name: "VS Code", level: 100, category: "tools"},
-    {name: "Docker", level: 80, category: "tools"}
+    {name: "Git/Github", level: 85, category: "tools"},
+    {name: "VS Code", level: 90, category: "tools"},
+    {name: "Docker", level: 55, category: "tools"}
 ]
 const categories= ["all", "frontend", "backend", "systems", "tools"]
 
