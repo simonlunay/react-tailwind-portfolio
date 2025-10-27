@@ -21,12 +21,12 @@ const projects = [
     },
     {
         id:3,
-        title: "Accessible Mouse",
-        description: "A group project where my team and I developed a working mouse for people with hand deformities. **No URLs",
+        title: "FitAI",
+        description: "A full-stack fitness web application built for a hackathon in order to help users overcome the fear of beginning at the gym",
         image: "/projects/project3.png",
-        tags: ["AutoCAD", "CircuitPython", "Windows Accessibility API"],
-        demoUrl: "",
-        githubUrl: "",
+        tags: ["React", "Gemini API", "SQL", "TensorFlow.js", "JavaScript"],
+        demoUrl: "https://youtu.be/K5WOeHgslAE",
+        githubUrl: "https://github.com/ChuckyT15/FitAI",
     }
 ];
 
