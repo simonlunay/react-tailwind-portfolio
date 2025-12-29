@@ -15,7 +15,7 @@ export const ContactSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Get In <span className="text-primary"> Touch</span></h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                If you're looking for a Computer Science student eager to learn with experience in full-stack development, AI, and various coding languages, I'm open to opporutnities---let's connect!
+                If you're looking for a Computer Science student eager to learn with experience in full-stack development, AI, and various coding languages, I'm open to opportunities---let's connect!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
