@@ -3,6 +3,8 @@
 A personal portfolio built with **React** and **Tailwind CSS** to showcase my projects, skills, and experience.  
 The site is fully responsive, features a dark mode toggle, and is designed with a clean, modern UI.
 
+**Check it out!** [https://www.simonlunay.com]
+
 ## Features
 - ⚡ Built with React + Vite for fast performance  
 - 🎨 Styled using Tailwind CSS  
