@@ -15,7 +15,7 @@ export const AboutSection = () => {
                     </h3>
                 
                     <p className="text-muted-foreground">
-                    The past two summers, I interned at a local small business helping optimize their operations through software — including building them a full-stack website from scratch. This summer, I'm joining Fidelity Investments as a Software Engineering Intern.</p>
+                    The past two summers, I interned at a local small business helping optimize their operations through software, including building them a full-stack website from scratch. This summer, I'm joining Fidelity Investments as a Software Engineering Intern.</p>
                     <p className="text-muted-foreground">I'm extremely passionate about problem solving which is what created my love for computer science. I'm constantly learning new technologies to stay ahead of the constantly evolving software engineering world.
                     </p>
 
@@ -67,11 +67,11 @@ export const AboutSection = () => {
                                 <div className="space-y-3 mt-1">
                                     <div>
                                         <p className="text-sm font-medium">Fidelity Investments</p>
-                                        <p className="text-xs text-primary">Software Engineering Intern &mdash; Summer 2026</p>
+                                        <p className="text-xs text-primary">Software Engineering Intern · Summer 2026</p>
                                     </div>
                                     <div>
                                         <p className="text-sm font-medium">JCL Equipment</p>
-                                        <p className="text-xs text-primary">Computer Science Intern &mdash; Summers 2023 &ndash; 2024</p>
+                                        <p className="text-xs text-primary">Computer Science Intern · Summers 2024 &amp; 2025</p>
                                         <p className="text-xs text-muted-foreground">Database management, automation &amp; website development</p>
                                     </div>
                                 </div>
