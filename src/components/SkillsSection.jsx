@@ -18,7 +18,7 @@ const skills= [
     //Systems
     {name: "C", level: 95, category: "systems"},
     {name: "Assembly", level: 85, category: "systems"},
-    
+
     //tools
     {name: "Git/Github", level: 85, category: "tools"},
     {name: "VS Code", level: 90, category: "tools"},
@@ -28,11 +28,11 @@ const categories= ["all", "frontend", "backend", "systems", "tools"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory]= useState("all");
-    
+
     const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory);
     return (
-        <section 
-        id="skills" 
+        <section
+        id="skills"
         className="py-24 px-4 relative bg-secondary/30"
         >
             <div className="container mx-auto max-w-5xl">
@@ -41,15 +41,15 @@ export const SkillsSection = () => {
                 </h2>
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
                     {categories.map((category,key) => (
-                        <button 
-                        key={key} 
+                        <button
+                        key={key}
                         onClick={() => setActiveCategory(category)}
                         className={cn(
                             "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                             activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-secondary"
                         )}
                         >
-                           {category} 
+                           {category}
                         </button>
                     ))}
                 </div>
@@ -62,7 +62,7 @@ export const SkillsSection = () => {
                                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
                             </div>
                             <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                            <div 
+                            <div
                             className="bg-primary h-2 rounded-full origin-left animate-grow_1.5s_ease-out"
                             style={{width: skill.level+"%"}}
                             />
