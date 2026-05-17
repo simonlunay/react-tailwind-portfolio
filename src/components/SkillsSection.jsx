@@ -24,7 +24,7 @@ const skills= [
     {name: "VS Code", level: 90, category: "tools"},
     {name: "Docker", level: 65, category: "tools"},
     {name: "WSL", level: 60, category: "tools"},
-    {name: "Claude API", level: 65, category: "tools"},
+    {name: "Claude API", level: 85, category: "tools"},
     {name: "Blockchain/Web3", level: 45, category: "tools"}
 ]
 const categories= ["all", "frontend", "backend", "systems", "tools"]
