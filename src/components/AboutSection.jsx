@@ -69,7 +69,7 @@ export const AboutSection = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm font-medium">JCL Equipment</p>
-                                        <p className="text-xs text-primary">Computer Science Intern · Summers 2024 &amp; 2025</p>
+                                        <p className="text-xs text-primary">Software Engineering Intern · Summers 2024 &amp; 2025</p>
                                         <p className="text-xs text-muted-foreground">Database management, automation &amp; website development</p>
                                     </div>
                                 </div>
