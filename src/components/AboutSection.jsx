@@ -1,4 +1,4 @@
-import { Code, User, Briefcase } from "lucide-react";
+import { Code, Layers, Briefcase } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -35,10 +35,9 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development</h4>
+                                <h4 className="font-semibold text-lg">Application Development</h4>
                                 <p className="text-muted-foreground">
-                                    Creating full stack websites and web applications with modern frameworks
-
+                                    Building full-stack applications from the ground up, focusing on clean architecture, performance, and scalability.
                                 </p>
                             </div>
                         </div>
@@ -46,13 +45,12 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <User className="h-6 w-6 text-primary"/>
+                                <Layers className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                <h4 className="font-semibold text-lg">Software Design</h4>
                                 <p className="text-muted-foreground">
-                                    Designing clean, intuitive interfaces that makes it easy for users to navigate and for businesses to manage their content
-
+                                    Designing maintainable systems with an eye for clean interfaces, solid abstractions, and thoughtful user experience.
                                 </p>
                             </div>
                         </div>
