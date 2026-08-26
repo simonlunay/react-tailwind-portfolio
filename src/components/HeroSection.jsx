@@ -14,7 +14,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I am a third-year computer science student at The Ohio State University searching for a Summer 2026 Internship. This portfolio showcases my interests, skills, and a few of my personal favorite projects.
+                    I am a fourth-year computer science student at The Ohio State University searching for New Grad Software Engineering roles for 2027. This portfolio showcases my interests, skills, and a few of my personal favorite projects.
                     </p> 
 
                     <div className= "pt-4 opacity-0 animate-fade-in-delay-4">
