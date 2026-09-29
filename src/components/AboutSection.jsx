@@ -16,6 +16,7 @@ export const AboutSection = () => {
                 
                     <p className="text-muted-foreground">
                     I recently wrapped up a Software Engineering Internship at Fidelity Investments, and before that spent two summers interning at a local small business helping optimize their operations through software, including building them a full-stack website from scratch. I'm now searching for New Grad Software Engineering roles for 2027.</p>
+                    <p className="text-muted-foreground">Currently, I'm an AI/ML Research Assistant in the Kumar Lab at The Ohio State University, where I'm prototyping a multi-vector retrieval pipeline for rare medical cases using PubMedBERT embeddings and FAISS. I'm also Lead Developer at the Columbus/Central Ohio Colleges Agency, directing a ~20-member team that builds full-stack web platforms for 10+ nonprofit clients.</p>
                     <p className="text-muted-foreground">I'm extremely passionate about problem solving which is what created my love for computer science. I'm constantly learning new technologies to stay ahead of the constantly evolving software engineering world.
                     </p>
 
@@ -63,6 +64,16 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Experience</h4>
                                 <div className="space-y-3 mt-1">
+                                    <div>
+                                        <p className="text-sm font-medium">The Ohio State University</p>
+                                        <p className="text-xs text-primary">AI/ML Research Assistant · Aug 2026 – Present</p>
+                                        <p className="text-xs text-muted-foreground">Natural language processing &amp; rare medical case retrieval</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-sm font-medium">Columbus/Central Ohio Colleges Agency (CCOCA)</p>
+                                        <p className="text-xs text-primary">Lead Developer · Nov 2025 – Present</p>
+                                        <p className="text-xs text-muted-foreground">Leading full-stack development for nonprofit organizations</p>
+                                    </div>
                                     <div>
                                         <p className="text-sm font-medium">Fidelity Investments</p>
                                         <p className="text-xs text-primary">Software Engineering Intern · Summer 2026</p>
