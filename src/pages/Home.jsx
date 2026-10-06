@@ -101,16 +101,12 @@ const About = () => (
         <Link href="https://www.fidelity.com/" className="link">
           Fidelity Investments
         </Link>{" "}
-        as a Software Engineering Intern, where I built an autonomous AI agent that cut a manual
-        workflow from 18 minutes to 2. Now I do AI/ML research for the Ohio State College of
+        as a Software Engineering Intern, where I worked on agentic AI and automation projects. Now I do AI/ML research for the Ohio State College of
         Engineering and lead a student dev team that builds software for nonprofits.
       </p>
       <p>
-        I like building things people actually use:{" "}
-        <a href="#graspiq" className="link">
-          GraspIQ
-        </a>{" "}
-        got 100+ users in its first two weeks. Outside of tech, I love pickup basketball, skiing,
+        I love building things people actually use, whether that's AI tools or websites I've
+        built for paying clients. Outside of tech, I love pickup basketball, skiing,
         and card games like cribbage and hearts.
       </p>
     </section>
