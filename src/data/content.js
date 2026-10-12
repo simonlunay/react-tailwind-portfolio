@@ -70,6 +70,21 @@ export const projects = [
     ],
   },
   {
+    id: "redline",
+    title: "Redline",
+    subtitle: "Agentic Design Editor for Ads and Posters",
+    href: "https://github.com/simonlunay/redline",
+    featured: true,
+    highlight: "200+ npm downloads",
+    tags: ["TypeScript", "Claude API", "ONNX Runtime", "Next.js", "React", "Zod"],
+    description:
+      "**Raised the mean score of 21 broken designs from 62.1 to 98.8, and a blind judge preferred the fixed version 40 of 42 times.** Scores posters, ads, and social posts from 0 to 100 with ten layout rules and an **attention heatmap** of where viewers will look, then has **Claude** fix what it finds in a loop that rolls back any edit that lowers the score. It can also generate designs from a prompt, and the open-source **MIT** checker library and CLI are on **npm**.",
+    links: [
+      { label: "Live demo", href: "https://simonlunay.github.io/redline/" },
+      { label: "npm", href: "https://www.npmjs.com/package/@simonlunay/redline" },
+    ],
+  },
+  {
     id: "codebase-agent",
     title: "Codebase Intelligence Agent",
     subtitle: "AI Agent for GitHub Repositories",
@@ -106,7 +121,6 @@ export const projects = [
     title: "FitAI",
     subtitle: "Fitness App for Gym Beginners",
     href: "https://github.com/ChuckyT15/FitAI",
-    featured: true,
     highlight: "Built in 24 hours @ HackOHI/O",
     tags: ["React", "Gemini API", "TensorFlow.js", "PostgreSQL"],
     description:
