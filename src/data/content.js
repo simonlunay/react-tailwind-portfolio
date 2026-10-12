@@ -57,10 +57,10 @@ export const projects = [
     subtitle: "AI Study Assistant for Canvas",
     href: "https://github.com/simonlunay/GraspIQ",
     featured: true,
-    highlight: "100+ users in 2 weeks",
+    highlight: "70+ users in 2 weeks",
     tags: ["Next.js", "TypeScript", "Claude API", "pgvector", "Supabase", "Stripe", "Docker"],
     description:
-      "**Reached 100+ users in its first two weeks.** A **Chrome side panel extension** plus **Next.js** web app where a **Claude** tool-use agent generates study guides, practice tests, and answers grounded in the student's own course files via **pgvector** search. The agent runs as its own **Dockerized** service with an **MCP server**, and paid plans are live through **Stripe**.",
+      "**Reached 70+ users in its first two weeks.** A **Chrome side panel extension** plus **Next.js** web app where a **Claude** tool-use agent generates study guides, practice tests, and answers grounded in the student's own course files via **pgvector** search. The agent runs as its own **Dockerized** service with an **MCP server**, and paid plans are live through **Stripe**.",
     links: [
       { label: "Website", href: "https://grasp-iq-pi.vercel.app" },
       {
