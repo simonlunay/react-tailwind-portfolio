@@ -107,6 +107,21 @@ export const projects = [
     links: [],
   },
   {
+    id: "chesstrainer",
+    title: "ChessTrainer",
+    subtitle: "On-Screen Chess Coach for Any Board",
+    href: "https://github.com/simonlunay/ChessTrainer",
+    tags: ["Python", "PyTorch", "OpenCV", "ONNX", "Stockfish", "Claude API", "PyQt6"],
+    description:
+      "**A chess coach that sits on top of any board on your screen.** Reads the board from a screen capture with a custom-trained **CNN**, runs **Stockfish**, and draws the best move right on the board. **Claude** explains moves in plain English at your skill level, using only computed facts plus a fact checker so it doesn't hallucinate. Includes an opening trainer with **spaced repetition** and a game review mode for your Lichess and Chess.com games.",
+    links: [
+      {
+        label: "Want to try it? Free Windows download",
+        href: "https://github.com/simonlunay/ChessTrainer/releases/latest",
+      },
+    ],
+  },
+  {
     id: "privatedoc",
     title: "PrivateDoc",
     subtitle: "Zero-Knowledge AI Symptom Checker",
